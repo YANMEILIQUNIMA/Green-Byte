@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Graduation project of Green Byte Group</title>
+    <style>  
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+	  <div style="
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 40px;
+    ">
+      <img src='https://i.imgs.ovh/2025/05/10/vQYxd.png' alt="Green byte" width="80px" height="80px"
+    </div>
+
+    <div style="
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 15px;
+      line-height: 1.7;
+      color: green;
+    ">
+      <p>The members of the Green Byte team are YAN JIALE, ZHAO ZHENWEN, LU HAOZE.</p>
+      <p>This analysis includes carbon emissions from all countries and regions from 1949 to 2023.</p>
+      
+    </div>
+
+    <div style="
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 15px;
+      line-height: 1.7;
+      color: red;
+    ">
+      <p>This analysis report is only for the graduation project of the Green Byte Group.</p>
+    </div>
+
+    <div style="
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 40px;
+      font-size: 12px
+    ">
+      <p>YAN JIALE Only</p>
+      <a href="https://www.naver.com/">Analysis Report</a>
+    </div>
+    </a>
+  </body>
+</html>
