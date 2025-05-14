@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Graduation project of Green Byte Group</title>
+    <style>  
+      body {  /*整体字体统一*/
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica Neue", sans-serif;
+        background-color: #f1f1f1;
+
+      }
+      .header-row{  /*背景*/
+        background-color: #e0ecf039;
+        padding: 1px; /*上下左右都留点空隙*/
+        display: flex;
+        align-items: center;
+
+      }
+      .left-logo{  /*图标左移*/
+        float: left;
+        margin-top: 10px;   /*上边距*/
+        margin-left: 10px; /*左边距*/
+        max-width: 140px;
+        height: auto;
+        position: absolute;  /*无视照片像素所占区域*/
+      }
+
+      .content{
+        margin-left: 340px;
+        padding: 30px;
+      }
+      
+      .middle-section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; /*小屏幕时自动换行*/
+      }
+      .button{   /*美化底部模块链接*/
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: bold;
+      }
+      .button:hover{
+        background-color: #388E3C;
+      }
+      .container{ /*页面居中对齐*/
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+      .card { /*背景，阴影布局*/
+       background-color: white;
+       border-radius: 12px;
+       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+       padding: 20px;
+       margin: 20px 0;
+      }   
+      .button { /*Analysis Report 按钮*/
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+       background-color: #388E3C;
+      }
+      .gallery img { /*照片动态效果*/
+       width: 100%;
+       height: auto;
+       border-radius: 12px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+       transition: transform 0.3s ease;
+      }
+      .gallery img:hover {
+       transform: scale(1.05);
+      }
+      .zoom-img {  /*照片动态效果2*/
+       transition: transform 0.3s ease; 
+      }
+      .zoom-img:hover{
+       transform: scale(1.1); 
+      }
+
+      .footer { /*底部装饰*/
+      text-align: center;
+      padding: 20px;
+      background-color: #cde9d3;
+      color: #333;
+      font-size: 14px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="header-row; gallery img;" style="text-align: left"; padding: 20px;>
+      <img src='https://i.imgs.ovh/2025/05/12/vtEDC.png' alt="Green byte" class="left-logo">
+      <div style="color:black;" class="container">  
+        <h1 style="text-align: center;">Welcome to the Green Byte website</h1> 
+        <p style="white-space: nowrap; margin-left:10px; text-align: center;">We focus on environmental data analysis, carbon emission detection, visualization, and are committed to promoting low-carbon development</p>
+      </div>
+    </div>
+    
+    <div class="middle-section"> 
+      <div class="card">
+        <h2>모임 사진</h2>
+        <img src="https://i.imgs.ovh/2025/05/12/vd3P9.jpeg" art="会谈1" width="100px" class="zoom-img">
+        <img src="">
+      </div>
+      <div class="card">
+        <h2>데이터 분석 </h2>
+        <img src="https://i.imgs.ovh/2025/05/12/vIBSa.jpeg" art="数据预测图1" width="100px" class="zoom-img">
+        <img src="">
+      </div>
+    </div>
+
+    <div class="card" style="text-align: center; line-height: 40px; ">
+        <h2>데이터 분석 결과 보기</h2>
+      <a href="https://yanmeiliqunima.github.io/Green-Byte/%E6%B4%BB%E5%8A%A8%E7%85%A7%E7%89%87.html" class="button" target="_blank">Analysis Report</a>
+    </div>
+    <div style="
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 15px;
+      line-height: 1.7;
+      color: green;
+      text-align: center;
+    ">
+      <p>The members of the Green Bytes team are YAN JIALE, ZHAO ZHENWEN, LU HAOZE.</p>
+      <p>This analysis includes carbon emissions from all countries and regions from 1949 to 2023.</p>
+      
+    </div>
+    <div>
+
+    </div>
+    <div style="
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 15px;
+      line-height: 1.7;
+      color: red;
+      text-align: center;
+    ">
+      <p>This analysis report is only for the graduation project of the Green Byte Group.</p>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Green Bytes Group. All rights reserved.
+      
+    </div>
+    </a>
+  </body>
+</html>
